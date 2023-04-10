@@ -1,0 +1,107 @@
+h1 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+#container {
+    height: 650px;
+    width: 650px;
+    background-color: #d0cfce;
+    border: 5px solid #0c0c0c;
+    border-radius: 6px;
+    position: relative;
+    left: 28%;
+}
+
+#weight-input{
+    height: 25px;
+    width: 250px;
+    position: relative;
+    left: 16%;
+    top: 6%;
+    align-self: center;
+}
+#wlabel {
+    position: relative;
+    left: 15%;
+    top: 6%;
+    font-size: 19px;
+}
+
+
+#height-input{
+    height: 25px;
+    width: 250px;
+    position: relative;
+    left: 41%;
+    top: 10%;
+    align-self: center;
+}
+#hlabel {
+    position: relative;
+    right: 50%;
+    top: 15%;
+    font-size: 19px;
+} 
+
+
+ #bmi-output {
+    height: 25px;
+    width: 250px;
+    position: relative;
+    bottom: 17%;
+    left: 36%;
+    align-self: center;
+}
+#bmilabel {
+    position: relative;
+    top: 31%;
+    right: 35%;
+    font-size: 19px;
+}
+
+#btn {
+    height: 35px;
+    width: 99px;
+    position: relative;
+    top: 20% ;
+    left: 2%;
+    background-color: red;
+    font-size: 19px;
+    align-self: center;
+    justify-self: center;
+}
+
+img{
+    position: relative;
+    top: 38%;
+    right: 13%;    
+}
+#btn2 {
+    height: 29px;
+    width: 50px;
+    position: relative;
+    bottom:47%;
+    right: 5%;
+    background-color: red;
+    font-size: 12px;
+}
+#btn3 {
+    height: 29px;
+    width: 50px;
+    position: relative;
+    bottom: 43%;
+    left: 82%;
+    background-color: red;
+    font-size: 12px;
+}
+#btn4 {
+    height: 29px;
+    width: 50px;
+    position: relative;
+    bottom: 22%;
+    left: 69%;
+    background-color: red;
+    font-size: 12px;
+}

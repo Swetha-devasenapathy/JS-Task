@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>BMI Calculator</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"> 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>BMI Calculator</h1>
+    <div id="container">
+        <label id="wlabel"><b>Your Weight(in kg):</b></label><input type="text" id="weight-input">
+        <label id="hlabel"><b>Your Height(in cm):</b></label><input type="text" id="height-input">
+        <button id="btn"><b>Calculate</b></button>
+        <label id="bmilabel"><b>Your BMI:</b></label><input type="text" id="bmi-output">
+        <img src="BMI chart.jpg" width="300" height="300">
+        <button id="btn2"  onclick="document.getElementById('weight-input').value=''";><b>Clear</b></button>
+        <button id="btn3"  onclick="document.getElementById('height-input').value=''";><b>Clear</b></button>
+        <button id="btn4" onclick="document.getElementById('bmi-output').value=''";><b>Clear</b></button>
+    </div>
+    <script src="main.js"></script>
+</body> 
+</html>
